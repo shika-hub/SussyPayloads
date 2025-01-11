@@ -37,7 +37,7 @@ local function booba2()
     if avatar then
         local body = find_body(avatar)
 
-        local bones = body.transform:GetComponent(typeof(CS.UnityEngine.SkinnedMeshRenderer)).bones
+        local bones = body.transform:GetComponent("SkinnedMeshRenderer").bones
         local booba = nil
 
         --Iterate over bones to find boobs

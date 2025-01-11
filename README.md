@@ -27,8 +27,6 @@ Some scripts for some RCE framework in some gacha game
 * moloader
     * Load MO file. Need to unpack `mo.zip` and change location in `moFilePath` and `TextPath`.
 * button
-    * Create a button.You can add any listener on click.
+    * Create a button. You can add any listener on click.
 * clone
     * Clone current avatar with pose.
-* il2cppdump
-    * Gives you a dump.cs
